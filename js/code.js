@@ -32,7 +32,17 @@
      // for the current year. Then create a third variable to store your age!
      // Name these: `birthYear`, `currentYear`, and `age`
 
+     function subtract (x,y) {
 
+       var result = x - y;
+       return result;
+     }
+
+      var birthYear = 1991;
+      var currentYear = 2016;
+      var age = subtract(2016, 1991);
+
+    console.log(age);
 
      // TODO 4: Create a new variable called `style` - if your age is under 35,
      // store "hip" in this variable, but if your age is 35 or over, store

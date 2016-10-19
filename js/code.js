@@ -48,6 +48,15 @@
      // store "hip" in this variable, but if your age is 35 or over, store
      // "classic" in this variable.
 
+      var style;
+
+      if (age < 35) {
+        style = 'hip';
+
+      } else if (age >= 35) {
+        style = 'classic';
+      }
+
 
 
      // TODO 5: Create a variable indicating that your instructor is awesome
@@ -56,6 +65,14 @@
      // Next, create a variable called `review` and, if the instructor is
      // awesome, set `review` to "good", otherwise set the `review` variable to "bad"
 
+     var instructorIsAwesome = true;
+     var review;
+
+     if (true) {
+       review = 'good';
+     } else {
+       review = 'bad';
+     }
 
 
      // TODO 6: Create a function called `math` which accepts to numbers as

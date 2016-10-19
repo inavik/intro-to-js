@@ -42,7 +42,6 @@
       var currentYear = 2016;
       var age = subtract(2016, 1991);
 
-    console.log(age);
 
      // TODO 4: Create a new variable called `style` - if your age is under 35,
      // store "hip" in this variable, but if your age is 35 or over, store
@@ -79,7 +78,14 @@
      // arguments and returns the result of adding them together, mutliplying
      // by 10, then dividing by the first number.
 
+     function math(x,y) {
 
+       var result = [(x+y) * 10] / (x);
+       return result;
+
+       console.log(4,2);
+
+     }
 
      // TODO 7: Write a function called `madlib` that takes 3 separate words as
      // arguments. The function should insert the words into this sentence:

@@ -17,14 +17,16 @@
      // your first name.
      // Also DECLARE (but do not instantiate) a `lastName` variable.
 
-     
+     var firstName = 'Navi';
+
+     var lastName;
 
      // TODO 2: Create a `greeting` variable as a string which says:
      //    "Hello there _____!"
      // Replace the _____ above with the value of the `firstName` variable.
      // NOTE: Do NOT simply retype your first name in the `greeting` value.
 
-
+     var greeting = 'Hello there ' + firstName + '!';
 
      // TODO 3: Create two variables: one for the year you were born, and one
      // for the current year. Then create a third variable to store your age!

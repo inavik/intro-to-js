@@ -92,7 +92,11 @@
      // "I prefer __1__ while I __2__ so that I don't __3__ on the __4__."
      // Finally, the function should return that new sentence.
 
+     function madlib(x,y,z,a) {
 
+      return 'I prefer ' + x + ' while I ' + y + ' so that I don\'t ' + z + ' on the ' + a + '.';
+
+     }
 
      /* ***************************************************************
                               EPIC Mode
@@ -105,6 +109,11 @@
      // TODO 8: Define a function called `reverse` that returns the reverse of
      // a string provided as an argument. For example, reverse("jag testar")
      // should return the string "ratset gaj".
+
+     function reverse(hello) {
+       return hello.split("").reverse().join("");
+       console.log(hello);
+     }
 
 
 

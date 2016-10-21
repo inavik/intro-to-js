@@ -18,6 +18,7 @@
      // Also DECLARE (but do not instantiate) a `lastName` variable.
 
      var firstName = 'Navi';
+         firstName = 'Navi';
 
      var lastName;
 
@@ -34,8 +35,8 @@
 
      function subtract (x,y) {
 
-       var result = x - y;
-       return result;
+       return x - y;
+
      }
 
       var birthYear = 1991;
@@ -52,7 +53,7 @@
       if (age < 35) {
         style = 'hip';
 
-      } else if (age >= 35) {
+      } else {
         style = 'classic';
       }
 
@@ -67,7 +68,7 @@
      var instructorIsAwesome = true;
      var review;
 
-     if (true) {
+     if (instructorIsAwesome) {
        review = 'good';
      } else {
        review = 'bad';
@@ -82,8 +83,6 @@
 
        var result = [(x+y) * 10] / (x);
        return result;
-
-       console.log(4,2);
 
      }
 
